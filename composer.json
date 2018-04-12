@@ -1,0 +1,23 @@
+{
+    "name": "isaacbats/testdb-code-deploy",
+    "description": "This is a test the mysql service on AWS",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "2.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Isaac Daniel Batista",
+            "email": "disa.indus@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PHP\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    }
+}
